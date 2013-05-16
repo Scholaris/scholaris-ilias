@@ -1,0 +1,45 @@
+<!-- BEGIN mybody -->
+<form id="form_" enctype="multipart/form-data" action="ilias.php?baseClass=ilScholarisServiceGUI&cmd=saveresource" method="post">
+
+	<div class="ilForm">
+
+		<div class="ilFormRow">
+			<div class="ilFormHeader">
+				<h3 class="ilFormHeader"><a name="il_form_top"></a>Dane użytkownika</h3><div class="ilFormInfo"></div>
+			</div>
+			<div class="ilFormHeader ilFormCommands">
+				<input class="submit" type="SUBMIT" name="cmd[update]" value="Save">
+			</div>
+		</div>
+
+		<div class="ilFormRow">
+			<div class="ilFormOption">
+				<label for="auth_mode">Login</label>
+			</div>
+			<div class="ilFormValue">
+				<input id="username" name="username" type="text" value="{UserName}" />
+			</div>
+		</div>
+
+		<div class="ilFormRow">
+			<div class="ilFormOption">
+				<label for="auth_mode">Token</label>
+			</div>
+			<div class="ilFormValue">
+				<input id="token" name="token" type="text" value="{Token}" />
+			</div>
+		</div>
+		
+	</div>
+</form>
+
+<div>
+	<a id="id1" href="http://creator.staging.scht.pl/external/search/email/{UserName}" target="scholaristarget">Wyszukiwarka zasobów portalu</a>
+	<a id="id2" onclick="linkTwoOnClick()" href="http://creator.staging.scht.pl/external/publishlist/email/{UserName}" target="scholaristarget">Moje e-zasoby</a>
+</div>
+<div>
+	<iframe id="testid" name="scholaristarget" width="900px;" height="800px;"></iframe>
+</div>
+<!-- END mybody -->
+
+

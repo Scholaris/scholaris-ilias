@@ -1,0 +1,39 @@
+// 
+// English Language File for ExampleObject Plugin
+//
+
+<!-- language file start -->
+obj_xko#:#Scholaris Page
+objs_xko#:#Scholaris Pages
+obj_xko_duplicate#:#Copy
+objs_xko_duplicate#:#Copy Scholaris Page
+obj_xko_select#:#Select Scholaris Page
+xko_add#:#Add Scholaris Page
+xko_new#:#Add New Scholaris Page
+xko_read#:#Read access to Scholaris Page
+xko_write#:#Edit Scholaris Page
+xko_delete#:#Delete Scholaris Page
+xko_visible#:#Scholaris Page is visible
+xko_edit_permission#:#Change permission settings
+crs_create_xko#:#Create Scholaris Page
+grp_create_xko#:#Create Scholaris Page
+fold_create_xko#:#Create Scholaris Page
+root_create_xko#:#Create Scholaris Page
+cat_create_xko#:#Create Scholaris Page
+content#:#Content
+properties#:#Properties
+edit_properties#:#Edit Properties
+title#:#Title
+description#:#Description
+option_one#:#Option One
+option_two#:#Option Two
+save#:#Save
+token#:#Token
+cancel#:#Cancel
+edit#:#Edit
+status#:#Status
+offline#:#Offline
+scholpage_plugin_configuration#:#ScholPage Plugin Configuration
+setting_1#:#Setting 1
+setting_2#:#Setting 2
+saving_invoked#:#Save procedure has been executed.
